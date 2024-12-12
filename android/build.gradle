@@ -25,7 +25,7 @@ apply plugin: 'kotlin-android'
 
 android {
 
-    ext.exoPlayerVersion = "2.18.7"
+    ext.exoPlayerVersion = "2.15.1"
     ext.lifecycleVersion = "2.4.0-beta01"
     ext.annotationVersion = "1.2.0"
     ext.workVersion = "2.7.0"
@@ -74,6 +74,7 @@ android {
 dependencies {
     ext.coreVersion = "1.6.0"
     implementation "androidx.core:core-ktx:$coreVersion"
-//    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 }
